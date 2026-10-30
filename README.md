@@ -106,7 +106,11 @@
 <!-- PINNED:START -->
 <div align="center">
 
-<em>Pinned projects will appear here automatically once the workflow runs.</em>
+<a href="https://github.com/ShahriarSamee005/ChronoPlan"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=ChronoPlan&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="ChronoPlan"/></a><a href="https://github.com/ShahriarSamee005/BeyondSilence"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=BeyondSilence&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="BeyondSilence"/></a>
+
+<a href="https://github.com/ShahriarSamee005/CodexHackathon"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=CodexHackathon&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="CodexHackathon"/></a><a href="https://github.com/ShahriarSamee005/Explaniarmus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=Explaniarmus&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="Explaniarmus"/></a>
+
+<a href="https://github.com/ShahriarSamee005/habitquest"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=habitquest&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="habitquest"/></a><a href="https://github.com/ShahriarSamee005/Digital-Delta-Hackfusion"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=Digital-Delta-Hackfusion&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="Digital-Delta-Hackfusion"/></a>
 
 </div>
 <!-- PINNED:END -->
