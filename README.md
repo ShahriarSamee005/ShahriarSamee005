@@ -1,187 +1,191 @@
 <!--
-========================================================================
   Shahriar Samee — GitHub Profile README
-  Theme: dark navy / cyber-blue. Palette lives in the service URLs below
-  (hex without the '#'). Replace every ALL_CAPS placeholder.
-  NOTE: The left profile sidebar (photo/name/bio/links/orgs) is rendered
-  by GitHub from your account settings — see the setup guide, not here.
-========================================================================
+  Theme: dark navy / cyber-blue.
+  GitHub does not allow custom CSS/backgrounds in profile READMEs.
+  This layout uses GitHub-compatible HTML, Markdown, SVGs and image services.
 -->
 
-<!-- =================== 1. SOCIAL =================== -->
+<!-- ====================== SOCIAL ====================== -->
 <div align="center">
-
-<a href="https://github.com/ShahriarSamee005"><img src="https://img.shields.io/badge/GitHub-050B14?style=for-the-badge&logo=github&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/shahriar-samee-b34611217"><img src="https://img.shields.io/badge/LinkedIn-050B14?style=for-the-badge&logo=linkedin&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="LinkedIn"/></a>
-<a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-050B14?style=for-the-badge&logo=vercel&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Portfolio"/></a>
-<a href="mailto:shahriarsamee005@gmail.com"><img src="https://img.shields.io/badge/Email-050B14?style=for-the-badge&logo=gmail&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Email"/></a>
-<a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=P9FWR2cAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-050B14?style=for-the-badge&logo=googlescholar&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Google Scholar"/></a>
-
+  <a href="https://github.com/shahriarsamee">
+    <img src="https://img.shields.io/badge/GitHub-050B14?style=for-the-badge&logo=github&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/shahriar-samee-b34611217">
+    <img src="https://img.shields.io/badge/LinkedIn-050B14?style=for-the-badge&logo=linkedin&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="LinkedIn"/>
+  </a>
+  <a href="PORTFOLIO_URL">
+    <img src="https://img.shields.io/badge/Portfolio-050B14?style=for-the-badge&logo=vercel&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Portfolio"/>
+  </a>
+  <a href="mailto:shahriarsamee005@gmail.com">
+    <img src="https://img.shields.io/badge/Email-050B14?style=for-the-badge&logo=gmail&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Email"/>
+  </a>
+  <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=P9FWR2cAAAAJ">
+    <img src="https://img.shields.io/badge/Google_Scholar-050B14?style=for-the-badge&logo=googlescholar&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Google Scholar"/>
+  </a>
 </div>
 
-<!-- =================== 2. HERO / BANNER =================== -->
-<!--
-  Default = dynamic themed banner (works immediately).
-  To use your own night-landscape image, replace the <img src> below with
-  YOUR_BANNER_IMAGE_URL (the image must already contain the title text,
-  since GitHub cannot overlay text on an image).
--->
+<!-- ====================== HERO ====================== -->
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050B14,60:0B5FA5,100:1689FF&height=190&section=header&text=Welcome%20to%20Shahriar%20Samee's%20GitHub&fontColor=E6F3FF&fontSize=30&fontAlignY=38&desc=%3C%2F%3E&descSize=22&descAlignY=60&descAlign=50" alt="Welcome banner" width="100%"/>
-
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:050B14,55:0B5FA5,100:1689FF&height=190&section=header&text=Welcome%20to%20Shahriar%20Samee's%20GitHub&fontColor=E6F3FF&fontSize=30&fontAlignY=38&desc=%3C%2F%3E&descSize=22&descAlignY=62"
+    alt="Welcome to Shahriar Samee's GitHub"
+    width="100%"
+  />
 </div>
 
----
-
-<!-- =================== 3. WHO AM I =================== -->
+<!-- ====================== WHO AM I ====================== -->
 ## { WHOAMI }
 
 <table>
-<tr>
-<td width="50%" valign="top">
-<pre>
+  <tr>
+    <td width="50%" valign="top">
+      <pre>
 ┌─[shahriar@github]─[~]
 └─$ whoami
- USER        Shahriar Samee
- ROLE        CS Student · Research Assistant
- LOCATION    Bangladesh
- FOCUS       AI/ML · Computer Vision
- PRINCIPLE   Build. Research. Repeat.
-</pre>
-</td>
-<td width="50%" valign="top">
-<pre>
+NAME       Shahriar Samee
+ROLE       CSE Student
+           Research Assistant
+LOCATION   Bangladesh
+FOCUS      AI/ML · Computer Vision
+BUILD      Software · AI Systems
+      </pre>
+    </td>
+    <td width="50%" valign="top">
+      <pre>
 ┌─[shahriar@github]─[~]
 └─$ cat focus.txt
- LANGUAGES   Python · C++ · Dart · JS
- FRAMEWORKS  PyTorch · Flutter · FastAPI
- NOW         Explainable AI · Detection
- LEARNING    Multimodal Learning
- OPEN FOR    Research · Collab · Open Source
-</pre>
-</td>
-</tr>
+LANGUAGES  Python · C++ · Dart
+           Java · JavaScript
+FRAMEWORKS Flutter · FastAPI
+           Node.js · PyTorch
+RESEARCH   Deep Learning
+           Explainable AI
+COMMUNITY  IEEE Computer Society
+      </pre>
+    </td>
+  </tr>
 </table>
 
-<sub>CS student & Research Assistant · software development + AI/ML · computer vision, deep learning, explainable AI · IEEE Computer Society Student Branch</sub>
+<p align="center">
+  <sub>Computer Science student and Research Assistant interested in building useful software and researching practical AI systems — especially computer vision, deep learning and explainable AI.</sub>
+</p>
 
 ---
 
-<!-- =================== 4. TECH STACK =================== -->
-## `</>` Tech Stack
+<!-- ====================== TECH STACK ====================== -->
+## <code>&lt;/&gt;</code> Tech Stack
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=c,cpp,py,java,dart,js,html,css,flutter,nodejs,express,fastapi,pytorch,opencv,sklearn,supabase,mongodb,postgres,git,github,vscode,docker,figma&perline=9&theme=dark" alt="Tech stack"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/YOLO-050B14?style=for-the-badge&logo=yolo&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="YOLO"/>
-
+  <img
+    src="https://skillicons.dev/icons?i=c,cpp,py,java,dart,js,html,css,flutter,nodejs,express,fastapi,pytorch,opencv,sklearn,supabase,mongodb,postgres,git,github,vscode,docker,figma&perline=9&theme=dark"
+    alt="Technology stack"
+  />
+  <br/>
+  <img
+    src="https://img.shields.io/badge/YOLO-050B14?style=for-the-badge&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5"
+    alt="YOLO"
+  />
 </div>
 
 ---
 
-<!-- =================== 5. RECENT ACTIVITY (3D) =================== -->
+<!-- ====================== RECENT ACTIVITY ====================== -->
 ## Recent Activity
 
-<!-- Generated by the github-profile-3d-contrib Action (see setup guide). -->
 <div align="center">
-
-<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution chart" width="90%"/>
-
+  <!-- Generated by .github/workflows/profile-3d.yml -->
+  <img
+    src="./profile-3d-contrib/profile-night-view.svg"
+    alt="3D GitHub contribution activity"
+    width="100%"
+  />
 </div>
 
 ---
 
-<!-- =================== 6. FEATURED PROJECTS (DYNAMIC) =================== -->
+<!-- ====================== FEATURED PROJECTS ====================== -->
 ## Featured Projects
 
-<!--
-  The cards below are generated automatically from your PINNED repositories
-  by the "Update Pinned Projects" Action. Do not edit between the markers —
-  pin / unpin / reorder on your profile and it refreshes itself.
--->
 <!-- PINNED:START -->
 <div align="center">
-
-<a href="https://github.com/ShahriarSamee005/ChronoPlan"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=ChronoPlan&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="ChronoPlan"/></a><a href="https://github.com/ShahriarSamee005/BeyondSilence"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=BeyondSilence&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="BeyondSilence"/></a>
-
-<a href="https://github.com/ShahriarSamee005/CodexHackathon"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=CodexHackathon&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="CodexHackathon"/></a><a href="https://github.com/ShahriarSamee005/Explaniarmus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=Explaniarmus&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="Explaniarmus"/></a>
-
-<a href="https://github.com/ShahriarSamee005/habitquest"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=habitquest&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="habitquest"/></a><a href="https://github.com/ShahriarSamee005/Digital-Delta-Hackfusion"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShahriarSamee005&repo=Digital-Delta-Hackfusion&bg_color=081A2E&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5&hide_border=false" width="390" alt="Digital-Delta-Hackfusion"/></a>
-
+  <sub>Featured repositories are generated from the pinned repositories on my GitHub profile.</sub>
 </div>
 <!-- PINNED:END -->
 
 ---
 
-<!-- =================== 7. RESEARCH & PUBLICATIONS =================== -->
+<!-- ====================== RESEARCH ====================== -->
 ## Research & Publications
 
 **Research Interests**
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/Computer%20Vision-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Computer Vision"/>
-<img src="https://img.shields.io/badge/Deep%20Learning-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Deep Learning"/>
-<img src="https://img.shields.io/badge/Explainable%20AI-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Explainable AI"/>
-<img src="https://img.shields.io/badge/Object%20Detection-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Object Detection"/>
-<img src="https://img.shields.io/badge/Multimodal%20Learning-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Multimodal Learning"/>
-<img src="https://img.shields.io/badge/Robust%20%2F%20Interpretable%20AI-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Robust / Interpretable AI"/>
-<img src="https://img.shields.io/badge/Human--Centered%20AI-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Human-Centered AI"/>
-<img src="https://img.shields.io/badge/Data--Limited%20Environments-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Data-limited environments"/>
-
+  <img src="https://img.shields.io/badge/Computer%20Vision-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Computer Vision"/>
+  <img src="https://img.shields.io/badge/Deep%20Learning-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Deep Learning"/>
+  <img src="https://img.shields.io/badge/Explainable%20AI-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Explainable AI"/>
+  <img src="https://img.shields.io/badge/Object%20Detection-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Object Detection"/>
+  <img src="https://img.shields.io/badge/Multimodal%20Learning-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Multimodal Learning"/>
+  <img src="https://img.shields.io/badge/Robust%20%2F%20Interpretable%20AI-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Robust and Interpretable AI"/>
+  <img src="https://img.shields.io/badge/Human--Centered%20AI-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Human-Centered AI"/>
+  <img src="https://img.shields.io/badge/Data--Limited%20Environments-081A2E?style=for-the-badge&labelColor=050B14&color=0B5FA5" alt="Data-limited environments"/>
 </div>
 
-**Publication**
+**Selected Publication**
 
 <table>
-<tr>
-<td width="100%">
-
-**Integrating Behavioral Data and Explainable AI for Predicting Young Adult Depression**
-`ICECTE 2026` &nbsp;·&nbsp; Leading University / DeepNet R&D Lab
-
-<a href="https://ieeexplore.ieee.org/document/11429385"><img src="https://img.shields.io/badge/Paper-050B14?style=flat-square&logo=readthedocs&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Paper"/></a>
-<a href="https://doi.org/10.1109/ICECTE69292.2026.11429385"><img src="https://img.shields.io/badge/DOI-050B14?style=flat-square&logo=doi&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="DOI"/></a>
-<a href="PDF_LINK"><img src="https://img.shields.io/badge/PDF-050B14?style=flat-square&logo=adobeacrobatreader&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="PDF"/></a>
-<a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=P9FWR2cAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-050B14?style=flat-square&logo=googlescholar&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Google Scholar"/></a>
-
-</td>
-</tr>
+  <tr>
+    <td valign="top">
+      <strong>Integrating Behavioral Data and Explainable AI for Predicting Young Adult Depression</strong>
+      <br/>
+      <sub>ICECTE 2026 · Leading University / DeepNet R&amp;D Lab</sub>
+      <br/><br/>
+      <a href="https://ieeexplore.ieee.org/document/11429385">
+        <img src="https://img.shields.io/badge/Paper-050B14?style=flat-square&logo=readthedocs&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Read paper"/>
+      </a>
+      <a href="https://doi.org/10.1109/ICECTE69292.2026.11429385">
+        <img src="https://img.shields.io/badge/DOI-050B14?style=flat-square&logo=doi&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="DOI"/>
+      </a>
+      <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=P9FWR2cAAAAJ">
+        <img src="https://img.shields.io/badge/Google_Scholar-050B14?style=flat-square&logo=googlescholar&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Google Scholar"/>
+      </a>
+    </td>
+  </tr>
 </table>
 
 ---
 
-<!-- =================== 8. GITHUB STATISTICS =================== -->
+<!-- ====================== GITHUB STATS ====================== -->
 ## GitHub Statistics
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ShahriarSamee005&show_icons=true&hide_border=false&bg_color=050B14&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShahriarSamee005&layout=compact&hide_border=false&bg_color=050B14&title_color=4DB8FF&text_color=E6F3FF&border_color=0B5FA5" alt="Top languages"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ShahriarSamee005&hide_border=false&background=050B14&border=0B5FA5&stroke=0B5FA5&ring=1689FF&fire=4DB8FF&currStreakNum=E6F3FF&sideNums=E6F3FF&currStreakLabel=4DB8FF&sideLabels=7FA6C9&dates=7FA6C9" alt="GitHub streak" width="60%"/>
-
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api?username=shahriarsamee&show_icons=true&include_all_commits=true&hide_border=false&bg_color=050B14&title_color=4DB8FF&text_color=E6F3FF&icon_color=1689FF&border_color=0B5FA5"
+    alt="GitHub statistics"
+  />
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahriarsamee&layout=compact&langs_count=8&hide_border=false&bg_color=050B14&title_color=4DB8FF&text_color=E6F3FF&border_color=0B5FA5"
+    alt="Most used languages"
+  />
+  <br/>
+  <img
+    width="60%"
+    src="https://streak-stats.demolab.com?user=shahriarsamee&hide_border=false&background=050B14&border=0B5FA5&stroke=0B5FA5&ring=1689FF&fire=4DB8FF&currStreakNum=E6F3FF&sideNums=E6F3FF&currStreakLabel=4DB8FF&sideLabels=7FA6C9&dates=7FA6C9"
+    alt="GitHub contribution streak"
+  />
 </div>
 
 ---
 
-<!-- =================== 9. ACHIEVEMENTS =================== -->
+<!-- ====================== ACHIEVEMENTS ====================== -->
 ## Achievements
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/Research%20Assistant-DeepNet%20R%26D%20Lab-050B14?style=for-the-badge&logo=academia&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Research Assistant"/>
-<img src="https://img.shields.io/badge/IEEE%20CS-Student%20Branch%20Leadership-050B14?style=for-the-badge&logo=ieee&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="IEEE CS Leadership"/>
-<br/>
-<img src="https://img.shields.io/badge/Hackathon-Top%2050%20of%20700%2B-050B14?style=for-the-badge&logo=devpost&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Hackathon Top 50"/>
-<img src="https://img.shields.io/badge/Publication-ICECTE%202026-050B14?style=for-the-badge&logo=bookstack&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Publication"/>
-<br/>
-<img src="https://img.shields.io/badge/LU%20Sports%20Club-Member-050B14?style=for-the-badge&logo=strava&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="LU Sports Club"/>
-
+  <img src="https://img.shields.io/badge/Research%20Assistant-DeepNet%20R%26D%20Lab-050B14?style=for-the-badge&logo=academia&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Research Assistant"/>
+  <img src="https://img.shields.io/badge/IEEE%20CS-Student%20Branch%20Leadership-050B14?style=for-the-badge&logo=ieee&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="IEEE CS leadership"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Hackathon-Top%2050%20of%20700%2B-050B14?style=for-the-badge&logo=devpost&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="Hackathon Top 50"/>
+  <img src="https://img.shields.io/badge/Publication-ICECTE%202026-050B14?style=for-the-badge&logo=bookstack&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="ICECTE 2026 publication"/>
+  <img src="https://img.shields.io/badge/LU%20Sports%20Club-Steering%20Committee-050B14?style=for-the-badge&logo=strava&logoColor=4DB8FF&labelColor=050B14&color=0B5FA5" alt="LU Sports Club"/>
 </div>
