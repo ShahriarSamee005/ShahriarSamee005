@@ -21,13 +21,9 @@
 <!-- ====================== WHO AM I ====================== -->
 ## { WHOAMI }
 
-<div align="center">
-  <img src="./assets/whoami-portrait.png" alt="Shahriar Samee" width="100%"/>
-</div>
-
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td valign="top">
       <pre>
 ┌─[shahriar@github]─[~]
 └─$ whoami
@@ -39,7 +35,7 @@ FOCUS      AI/ML · Computer Vision
 BUILD      Software · AI Systems
       </pre>
     </td>
-    <td width="50%" valign="top">
+    <td valign="top">
       <pre>
 ┌─[shahriar@github]─[~]
 └─$ cat focus.txt
@@ -52,14 +48,15 @@ RESEARCH   Deep Learning
 COMMUNITY  IEEE Computer Society
       </pre>
     </td>
+    <td valign="top" width="300">
+      <img src="./assets/whoami-portrait.png" alt="Shahriar Samee" width="300"/>
+    </td>
   </tr>
 </table>
 
 <p align="center">
   <sub>Computer Science student and Research Assistant interested in building useful software and researching practical AI systems — especially computer vision, deep learning and explainable AI.</sub>
 </p>
-
----
 
 <!-- ====================== TECH STACK ====================== -->
 ## <code>&lt;/&gt;</code> Tech Stack
