@@ -2,6 +2,7 @@
 """Generate the static decorative SVGs (glowing social buttons + research chips).
 Run once locally; the SVGs are committed to assets/ and never change at runtime.
 """
+import json
 from pathlib import Path
 
 ASSETS = Path("assets")
@@ -10,23 +11,34 @@ ASSETS = Path("assets")
 BG = "#0A1A2E"
 BORDER = "#4DB8FF"
 TEXT = "#E6F3FF"
+ICON = "#4DB8FF"
 FONT = "'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace"
 
+# Brand icon path data (24x24 viewBox) from the simple-icons project.
+ICONS = json.loads((Path(__file__).parent / "icon_paths.json").read_text(encoding="utf-8"))
 
-def button(label: str) -> str:
-    w = 40 + len(label) * 11
+
+def button(key: str, label: str) -> str:
     h = 46
+    w = 58 + len(label) * 11
+    icon_sz = 19
+    iy = (h - icon_sz) / 2
+    ix = 16
+    scale = icon_sz / 24
+    icon = (f'<g transform="translate({ix},{iy}) scale({scale:.4f})" filter="url(#g)">'
+            f'<path d="{ICONS[key]}" fill="{ICON}"/></g>')
+    text_x = ix + icon_sz + 10
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{label}">
   <defs>
     <filter id="g" x="-40%" y="-80%" width="180%" height="260%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
   <rect x="3" y="3" width="{w-6}" height="{h-6}" rx="13" fill="{BG}"/>
   <rect x="3" y="3" width="{w-6}" height="{h-6}" rx="13" fill="none" stroke="{BORDER}" stroke-width="1.6" filter="url(#g)" opacity="0.95"/>
-  <circle cx="20" cy="{h//2}" r="3" fill="{BORDER}" filter="url(#g)"/>
-  <text x="{(w+14)//2+4}" y="{h//2+5}" text-anchor="middle" font-family="{FONT}" font-size="15" font-weight="700" letter-spacing="1.5" fill="{TEXT}">{label}</text>
+  {icon}
+  <text x="{text_x}" y="{h//2+5}" font-family="{FONT}" font-size="15" font-weight="700" letter-spacing="1.5" fill="{TEXT}">{label}</text>
 </svg>
 '''
 
@@ -38,7 +50,7 @@ for name, label in [
     ("email", "EMAIL"),
     ("scholar", "SCHOLAR"),
 ]:
-    (ASSETS / "social" / f"{name}.svg").write_text(button(label), encoding="utf-8")
+    (ASSETS / "social" / f"{name}.svg").write_text(button(name, label), encoding="utf-8")
 
 
 # ---- research interest chips (one wide SVG, glowing pills) ----
