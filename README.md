@@ -4,14 +4,11 @@
   (render reliably, no third-party outage). Replace PORTFOLIO_URL / PDF_LINK.
 -->
 
-
-
 <!-- ====================== HERO ====================== -->
 <div align="center">
-  <img src="./assets/banner.png" alt="Welcome to Shahriar Samee's GitHub" width="100%"/>
+  <img src="./assets/banner.svg" alt="Welcome to Shahriar Samee's GitHub" width="100%"/>
 </div>
 
-<!-- ====================== WHO AM I ====================== -->
 <!-- ====================== SOCIAL ====================== -->
 <div align="center">
   <a href="https://github.com/ShahriarSamee005"><img src="./assets/social/github.svg" alt="GitHub"/></a>
@@ -21,8 +18,12 @@
   <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=P9FWR2cAAAAJ"><img src="./assets/social/scholar.svg" alt="Google Scholar"/></a>
 </div>
 
-
+<!-- ====================== WHO AM I ====================== -->
 ## { WHOAMI }
+
+<div align="center">
+  <img src="./assets/whoami-portrait.png" alt="Shahriar Samee" width="100%"/>
+</div>
 
 <table>
   <tr>
@@ -86,9 +87,9 @@ COMMUNITY  IEEE Computer Society
 
 <!-- PINNED:START -->
 <table>
-<tr><td width="50%" valign="top"><h3>&nbsp;&#128230;&nbsp;<a href="https://github.com/ShahriarSamee005/ChronoPlan">ChronoPlan</a></h3><p>No description provided.</p><p><img src="https://img.shields.io/badge/LANG--Dart?style=flat-square&labelColor=050B14&color=0B5FA5" alt="LANG Dart"/> &nbsp; <img src="https://img.shields.io/badge/STARS--0?style=flat-square&labelColor=050B14&color=0B5FA5&logo=github&logoColor=4DB8FF" alt="STARS 0"/></p><p><a href="https://github.com/ShahriarSamee005/ChronoPlan"><sub>View repository &#8599;</sub></a></p></td><td width="50%" valign="top"><h3>&nbsp;&#128230;&nbsp;<a href="https://github.com/ShahriarSamee005/BeyondSilence">BeyondSilence</a></h3><p>No description provided.</p><p><img src="https://img.shields.io/badge/LANG--Dart?style=flat-square&labelColor=050B14&color=0B5FA5" alt="LANG Dart"/> &nbsp; <img src="https://img.shields.io/badge/STARS--0?style=flat-square&labelColor=050B14&color=0B5FA5&logo=github&logoColor=4DB8FF" alt="STARS 0"/></p><p><a href="https://github.com/ShahriarSamee005/BeyondSilence"><sub>View repository &#8599;</sub></a></p></td></tr>
-<tr><td width="50%" valign="top"><h3>&nbsp;&#128230;&nbsp;<a href="https://github.com/ShahriarSamee005/CodexHackathon">CodexHackathon</a></h3><p>No description provided.</p><p><img src="https://img.shields.io/badge/LANG--Python?style=flat-square&labelColor=050B14&color=0B5FA5" alt="LANG Python"/> &nbsp; <img src="https://img.shields.io/badge/STARS--0?style=flat-square&labelColor=050B14&color=0B5FA5&logo=github&logoColor=4DB8FF" alt="STARS 0"/></p><p><a href="https://github.com/ShahriarSamee005/CodexHackathon"><sub>View repository &#8599;</sub></a></p></td><td width="50%" valign="top"><h3>&nbsp;&#128230;&nbsp;<a href="https://github.com/ShahriarSamee005/Explaniarmus">Explaniarmus</a></h3><p>No description provided.</p><p><img src="https://img.shields.io/badge/LANG--Dart?style=flat-square&labelColor=050B14&color=0B5FA5" alt="LANG Dart"/> &nbsp; <img src="https://img.shields.io/badge/STARS--0?style=flat-square&labelColor=050B14&color=0B5FA5&logo=github&logoColor=4DB8FF" alt="STARS 0"/></p><p><a href="https://github.com/ShahriarSamee005/Explaniarmus"><sub>View repository &#8599;</sub></a></p></td></tr>
-<tr><td width="50%" valign="top"><h3>&nbsp;&#128230;&nbsp;<a href="https://github.com/ShahriarSamee005/Digital-Delta-Hackfusion">Digital-Delta-Hackfusion</a></h3><p>No description provided.</p><p><img src="https://img.shields.io/badge/LANG--Dart?style=flat-square&labelColor=050B14&color=0B5FA5" alt="LANG Dart"/> &nbsp; <img src="https://img.shields.io/badge/STARS--0?style=flat-square&labelColor=050B14&color=0B5FA5&logo=github&logoColor=4DB8FF" alt="STARS 0"/></p><p><a href="https://github.com/ShahriarSamee005/Digital-Delta-Hackfusion"><sub>View repository &#8599;</sub></a></p></td><td width="50%" valign="top"><h3>&nbsp;&#128230;&nbsp;<a href="https://github.com/ShahriarSamee005/work_sleep_repeat">work_sleep_repeat</a></h3><p>No description provided.</p><p><img src="https://img.shields.io/badge/LANG--Python?style=flat-square&labelColor=050B14&color=0B5FA5" alt="LANG Python"/> &nbsp; <img src="https://img.shields.io/badge/STARS--0?style=flat-square&labelColor=050B14&color=0B5FA5&logo=github&logoColor=4DB8FF" alt="STARS 0"/></p><p><a href="https://github.com/ShahriarSamee005/work_sleep_repeat"><sub>View repository &#8599;</sub></a></p></td></tr>
+<tr><td width="50%"><a href="https://github.com/ShahriarSamee005/ChronoPlan"><img src="./assets/projects/ChronoPlan.svg" width="100%" alt="ChronoPlan"/></a></td><td width="50%"><a href="https://github.com/ShahriarSamee005/BeyondSilence"><img src="./assets/projects/BeyondSilence.svg" width="100%" alt="BeyondSilence"/></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/ShahriarSamee005/CodexHackathon"><img src="./assets/projects/CodexHackathon.svg" width="100%" alt="CodexHackathon"/></a></td><td width="50%"><a href="https://github.com/ShahriarSamee005/Explaniarmus"><img src="./assets/projects/Explaniarmus.svg" width="100%" alt="Explaniarmus"/></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/ShahriarSamee005/Digital-Delta-Hackfusion"><img src="./assets/projects/Digital-Delta-Hackfusion.svg" width="100%" alt="Digital-Delta-Hackfusion"/></a></td><td width="50%"><a href="https://github.com/ShahriarSamee005/work_sleep_repeat"><img src="./assets/projects/work_sleep_repeat.svg" width="100%" alt="work_sleep_repeat"/></a></td></tr>
 </table>
 <!-- PINNED:END -->
 
