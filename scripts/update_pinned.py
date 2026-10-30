@@ -11,6 +11,7 @@ Preview:  python scripts/update_pinned.py --mock      (sample data, no network)
 """
 from __future__ import annotations
 
+import base64
 import json
 import os
 import re
@@ -22,6 +23,7 @@ from pathlib import Path
 USERNAME = "ShahriarSamee005"
 README = Path("README.md")
 CARD_DIR = Path("assets/projects")
+ICONS_SRC = Path("assets/projects/icons")
 START = "<!-- PINNED:START -->"
 END = "<!-- PINNED:END -->"
 MAX_PINS = 6
@@ -156,10 +158,30 @@ def wrap(text, width_chars, max_lines):
     return lines[:max_lines]
 
 
+def icon_markup(name, color, mono):
+    key = re.sub(r"[^a-z0-9]", "", name.lower())
+    f = ICONS_SRC / f"{key}.png"
+    if f.exists():
+        b64 = base64.b64encode(f.read_bytes()).decode()
+        defs = ('<defs><clipPath id="tile"><rect x="18" y="40" width="44" height="44" rx="11"/>'
+                '</clipPath></defs>')
+        img = (f'<image x="18" y="40" width="44" height="44" clip-path="url(#tile)" '
+               f'preserveAspectRatio="xMidYMid slice" href="data:image/png;base64,{b64}"/>'
+               f'<rect x="18" y="40" width="44" height="44" rx="11" fill="none" '
+               f'stroke="{color}" stroke-opacity="0.7"/>')
+        return img, defs
+    tile = (f'<rect x="18" y="40" width="44" height="44" rx="11" fill="{color}" fill-opacity="0.16" '
+            f'stroke="{color}" stroke-opacity="0.7"/>'
+            f'<text x="40" y="70" text-anchor="middle" font-family="{MONO}" font-size="22" '
+            f'font-weight="700" fill="{WHITE}">{esc(mono)}</text>')
+    return tile, ""
+
+
 def card_svg(repo: dict) -> str:
     langs = repo["langs"] or [("Code", CYAN, 100)]
     top_name, top_color, top_pct = langs[0]
     mono = repo["name"][0].upper()
+    icon_block, defs = icon_markup(repo["name"], top_color, mono)
 
     name = repo["name"]
     name_fs = 17 if len(name) <= 16 else 14 if len(name) <= 22 else 12
@@ -187,12 +209,12 @@ def card_svg(repo: dict) -> str:
         for i, line in enumerate(desc_lines))
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(repo['name'])}">
+  {defs}
   <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="14" fill="{BG}"/>
   <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="14" fill="none" stroke="{BORDER}" stroke-width="1.5"/>
   <circle cx="22" cy="20" r="3" fill="{CYAN}"/>
   <text x="34" y="24" font-family="{MONO}" font-size="11" fill="{MUTED}">{esc(USERNAME)}/{esc(repo['name'])}</text>
-  <rect x="18" y="40" width="44" height="44" rx="11" fill="{top_color}" fill-opacity="0.16" stroke="{top_color}" stroke-opacity="0.7"/>
-  <text x="40" y="70" text-anchor="middle" font-family="{MONO}" font-size="22" font-weight="700" fill="{WHITE}">{esc(mono)}</text>
+  {icon_block}
   <text x="70" y="57" font-family="{MONO}" font-size="{name_fs}" font-weight="700" fill="{WHITE}">{esc(name)}<tspan fill="{CYAN}">_</tspan></text>
   {desc_svg}
   {''.join(rows)}
