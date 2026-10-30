@@ -107,7 +107,7 @@ def bar(cx, cy, lvl):
     return "".join(s)
 
 
-def build(total, days):
+def build(total, days, placeholder=False):
     # index days into (week, weekday)
     cells = []
     week = 0
@@ -130,6 +130,11 @@ def build(total, days):
     width = ox + (ncols - 1) * TW + 7 * TW + 40
     height = oy + (ncols + 6) * TH + 90
     cur, longest = streaks(days)
+    if placeholder:
+        total_s = cur_s = long_s = "—"
+    else:
+        total_s, cur_s, long_s = f"{total:,}", str(cur), str(longest)
+    note = ('<text x="30" y="70" font-family="%s" font-size="11" fill="#7FA6C9">preview · run the workflow to load live data</text>' % MONO) if placeholder else ''
 
     def stat(x, big, small):
         return (f'<text x="{x}" y="{height-46}" font-family="{MONO}" font-size="26" font-weight="700" fill="#E6F3FF">{big}</text>'
@@ -144,11 +149,12 @@ def build(total, days):
   <text x="30" y="46" font-family="{MONO}" font-size="18" font-weight="700" fill="#4DB8FF">CONTRIBUTION ACTIVITY</text>
   <text x="{width-182}" y="52" font-family="{MONO}" font-size="11" fill="#7FA6C9">less</text>
   <text x="{width-28}" y="52" font-family="{MONO}" font-size="11" fill="#7FA6C9">more</text>
+  {note}
   {legend}
   {''.join(draw)}
-  {stat(30, f"{total:,}", "TOTAL CONTRIBUTIONS")}
-  {stat(230, str(cur), "CURRENT STREAK (DAYS)")}
-  {stat(460, str(longest), "LONGEST STREAK (DAYS)")}
+  {stat(30, total_s, "TOTAL CONTRIBUTIONS")}
+  {stat(230, cur_s, "CURRENT STREAK (DAYS)")}
+  {stat(460, long_s, "LONGEST STREAK (DAYS)")}
 </svg>
 '''
 
@@ -156,7 +162,8 @@ def build(total, days):
 MONO = "'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace"
 
 if __name__ == "__main__":
-    total, days = mock() if "--mock" in sys.argv else fetch()
+    ph = "--placeholder" in sys.argv
+    total, days = (mock() if (ph or "--mock" in sys.argv) else fetch())
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(build(total, days), encoding="utf-8")
-    print(f"Wrote {OUT} ({total} contributions, {len(days)} days)")
+    OUT.write_text(build(total, days, placeholder=ph), encoding="utf-8")
+    print(f"Wrote {OUT} (placeholder={ph}, {len(days)} days)")
