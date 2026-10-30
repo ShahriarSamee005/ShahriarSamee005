@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1022" height="118" viewBox="0 0 1022 118" role="img" aria-label="Research interests">
+<defs><filter id="g" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="2.3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="14" y="7" width="236" height="36" rx="18" fill="#0A1A2E"/>
+<rect x="14" y="7" width="236" height="36" rx="18" fill="none" stroke="#4DB8FF" stroke-width="1.4" filter="url(#g)" opacity="0.9"/>
+<text x="132" y="30" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-size="14" font-weight="600" fill="#E6F3FF">Computer Vision</text>
+<rect x="266" y="7" width="236" height="36" rx="18" fill="#0A1A2E"/>
+<rect x="266" y="7" width="236" height="36" rx="18" fill="none" stroke="#4DB8FF" stroke-width="1.4" filter="url(#g)" opacity="0.9"/>
+<text x="384" y="30" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-size="14" font-weight="600" fill="#E6F3FF">Deep Learning</text>
+<rect x="518" y="7" width="236" height="36" rx="18" fill="#0A1A2E"/>
+<rect x="518" y="7" width="236" height="36" rx="18" fill="none" stroke="#4DB8FF" stroke-width="1.4" filter="url(#g)" opacity="0.9"/>
+<text x="636" y="30" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-size="14" font-weight="600" fill="#E6F3FF">Explainable AI</text>
+<rect x="770" y="7" width="236" height="36" rx="18" fill="#0A1A2E"/>
+<rect x="770" y="7" width="236" height="36" rx="18" fill="none" stroke="#4DB8FF" stroke-width="1.4" filter="url(#g)" opacity="0.9"/>
+<text x="888" y="30" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-size="14" font-weight="600" fill="#E6F3FF">Object Detection</text>
+<rect x="14" y="59" width="236" height="36" rx="18" fill="#0A1A2E"/>
+<rect x="14" y="59" width="236" height="36" rx="18" fill="none" stroke="#4DB8FF" stroke-width="1.4" filter="url(#g)" opacity="0.9"/>
+<text x="132" y="82" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-size="14" font-weight="600" fill="#E6F3FF">Multimodal Learning</text>
+<rect x="266" y="59" width="236" height="36" rx="18" fill="#0A1A2E"/>
+<rect x="266" y="59" width="236" height="36" rx="18" fill="none" stroke="#4DB8FF" stroke-width="1.4" filter="url(#g)" opacity="0.9"/>
+<text x="384" y="82" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-size="14" font-weight="600" fill="#E6F3FF">Interpretable AI</text>
+<rect x="518" y="59" width="236" height="36" rx="18" fill="#0A1A2E"/>
+<rect x="518" y="59" width="236" height="36" rx="18" fill="none" stroke="#4DB8FF" stroke-width="1.4" filter="url(#g)" opacity="0.9"/>
+<text x="636" y="82" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-size="14" font-weight="600" fill="#E6F3FF">Human-Centered AI</text>
+<rect x="770" y="59" width="236" height="36" rx="18" fill="#0A1A2E"/>
+<rect x="770" y="59" width="236" height="36" rx="18" fill="none" stroke="#4DB8FF" stroke-width="1.4" filter="url(#g)" opacity="0.9"/>
+<text x="888" y="82" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-size="14" font-weight="600" fill="#E6F3FF">Data-Limited AI</text>
+</svg>
