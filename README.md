@@ -82,9 +82,7 @@ COMMUNITY  IEEE Computer Society
 ## Featured Projects
 
 <!-- PINNED:START -->
-<div align="center">
-  <sub>Featured repositories are generated from the pinned repositories on my GitHub profile.</sub>
-</div>
+<div align="center"><sub>No pinned repositories found. Pin repositories on your GitHub profile and this section will update automatically.</sub></div>
 <!-- PINNED:END -->
 
 ---
