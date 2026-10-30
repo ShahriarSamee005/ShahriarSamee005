@@ -4,6 +4,14 @@
   (render reliably, no third-party outage). Replace PORTFOLIO_URL / PDF_LINK.
 -->
 
+
+
+<!-- ====================== HERO ====================== -->
+<div align="center">
+  <img src="./assets/banner.png" alt="Welcome to Shahriar Samee's GitHub" width="100%"/>
+</div>
+
+<!-- ====================== WHO AM I ====================== -->
 <!-- ====================== SOCIAL ====================== -->
 <div align="center">
   <a href="https://github.com/ShahriarSamee005"><img src="./assets/social/github.svg" alt="GitHub"/></a>
@@ -13,12 +21,7 @@
   <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=P9FWR2cAAAAJ"><img src="./assets/social/scholar.svg" alt="Google Scholar"/></a>
 </div>
 
-<!-- ====================== HERO ====================== -->
-<div align="center">
-  <img src="./assets/banner.png" alt="Welcome to Shahriar Samee's GitHub" width="100%"/>
-</div>
 
-<!-- ====================== WHO AM I ====================== -->
 ## { WHOAMI }
 
 <table>
