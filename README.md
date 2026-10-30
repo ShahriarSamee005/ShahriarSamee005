@@ -15,7 +15,7 @@
 
 <!-- ====================== HERO ====================== -->
 <div align="center">
-  <img src="./assets/banner.svg" alt="Welcome to Shahriar Samee's GitHub" width="100%"/>
+  <img src="./assets/banner.png" alt="Welcome to Shahriar Samee's GitHub" width="100%"/>
 </div>
 
 <!-- ====================== WHO AM I ====================== -->
